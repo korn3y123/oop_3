@@ -1,4 +1,4 @@
-#include "../include/CoffeeMachine.h"
+#include "CoffeeMachine.h"
 #include <iostream>
 
 CoffeeMachine::CoffeeMachine(float water) : liters_of_water(water), active(false), cups_made(0) {}
